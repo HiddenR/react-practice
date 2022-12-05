@@ -1,0 +1,18 @@
+.PogressBar__wrapper{
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #F8DAFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.progressBar {
+    width: 4%;
+    background-color: #BBABF2;
+    height: 44vh;
+    border-radius: 30px;
+}

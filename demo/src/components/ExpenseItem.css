@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #383638;
+}
+.ExpenseItem{
+    background-color: #1E1D1E;
+    margin: 50px auto;
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+}
+.ExpenseItem_Wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 100%;
+    margin: 20px 20px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #434243;
+    border-radius: 20px;
+}
+
+.ExpenseItem_Title-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 71%;
+    margin: 0 10px
+}
+
+h3 {
+    color: white;
+    word-wrap: break-word;
+    max-width: 53%;
+    height: auto;
+}
+.ExpenseItem_Cost{
+    background-color: #380054;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    min-width: 150px;
+    width: auto;
+    padding: 20px;
+    border: solid white 3px;
+    border-radius: 20px;
+    
+}
+.btn{
+    background-color: #380054;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: solid white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1086px) {
+
+        .ExpenseItem_Title-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            width: 71%;
+            flex-wrap: wrap;
+            margin: 0%;
+        }
+}

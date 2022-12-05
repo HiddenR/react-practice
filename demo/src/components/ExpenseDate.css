@@ -1,0 +1,16 @@
+.ExpenseItem_Date {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border: solid white 3px;
+    border-radius: 18px;
+}
+.ExpenseItem_Date_month,.ExpenseItem_Date_year {
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+}
+.ExpenseItem_Date_day{
+    color: white;
+    font-size: 32px;
+}
